@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problema #2</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Problema #2 - Stickers</h1>
+    </header>
+
+    <main class="mainContainer">
+      <p>Pide stickers (máx 10)!</p>
+
+      <div class="stickers">
+        <div class="sticker">
+          <img src="../img/fedoraLogo.png" alt="" class="sticker--img" />
+          <input type="number" min="1" max="10" id="stickerUno" />
+        </div>
+
+        <div class="sticker">
+          <img src="../img/gitLogo.png" alt="" class="sticker--img" />
+          <input type="number" min="1" max="10" id="stickerDos" />
+        </div>
+
+        <div class="sticker">
+          <img src="../img/razer.svg" alt="" class="sticker--img" />
+          <input type="number" min="1" max="10" id="stickerTres" />
+        </div>
+      </div>
+
+      <p id="infoSticker"></p>
+      <input type="submit" id="btnSticker" value="Pedir stickers" />
+    </main>
+
+    <footer class="cards">
+      <a href="./problemaUno.html"> <p class="card">Problema #1</p></a>
+      <a href="./problemaDos.html"><p class="card">Problema #2</p></a>
+      <a href="./problemaTres.html"><p class="card">Problema #3</p></a>
+    </footer>
+
+    <script src="../scripts/script2.js"></script>
+  </body>
+</html>
